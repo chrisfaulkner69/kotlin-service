@@ -25,6 +25,8 @@ private fun getOrdinal(n: Int) = when {
     else -> "${n}th"
 }
 
+// default is public
+// No static
 fun String.toSlug() = lowercase(Locale.getDefault())
     .replace("\n", " ")
     .replace("[^a-z\\d\\s]".toRegex(), " ")

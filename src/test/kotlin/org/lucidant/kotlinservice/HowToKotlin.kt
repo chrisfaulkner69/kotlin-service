@@ -8,6 +8,13 @@ class HowToKotlin {
     @Test
     fun `get a name`() {
         assertThat(parseName("Chris Faulkner").firstName).isEqualTo("Chris")
+        val n = parseName("David Trimble-Jones FINALITY ")
+        println(n.lastName.toSlug())
+    }
+
+    @Test
+    fun `shows Extensions not Util classes`() {
+        assertThat(parseName("David Trimble-Jones FINALITY").lastName.toSlug()).isEqualTo("trimble-jones-finality")
     }
 
 }
