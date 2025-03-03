@@ -36,10 +36,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
 
     // OpenAPI with nice swagger UI
-    implementation("io.springfox:springfox-swagger2:3.0.0")
-    runtimeOnly("org.springdoc:springdoc-openapi-ui:1.8.0")
-    runtimeOnly("io.springfox:springfox-swagger-ui:3.0.0")
-
+    implementation("org.springdoc:springdoc-openapi-ui:1.8.0")
 
     developmentOnly("org.springframework.boot:spring-boot-devtools")
 
