@@ -7,7 +7,7 @@ plugins {
     kotlin("plugin.spring") version "1.9.10" // Spring support
     kotlin("plugin.jpa") version "1.9.10" // Open classes for Spring Data JPA
     // For classes such as JPA, makes non-final (kotlin final by default)
-    kotlin("plugin.allopen") version "1.9.10" // Open classes for Spring Data JPA
+    kotlin("plugin.allopen") version "2.1.10" // Open classes for Spring Data JPA
     kotlin("kapt") version "1.9.10"  // Kotlin Annotation Processor
 }
 
