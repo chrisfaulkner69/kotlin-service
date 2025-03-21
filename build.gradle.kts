@@ -3,7 +3,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     id("org.springframework.boot") version "3.4.3"
     id("io.spring.dependency-management") version "1.1.7"
-    kotlin("jvm") version "1.9.10"
+    kotlin("jvm") version "2.1.20"
     kotlin("plugin.spring") version "1.9.10" // Spring support
     kotlin("plugin.jpa") version "1.9.10" // Open classes for Spring Data JPA
     // For classes such as JPA, makes non-final (kotlin final by default)
