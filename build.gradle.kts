@@ -8,7 +8,7 @@ plugins {
     kotlin("plugin.jpa") version "2.1.20" // Open classes for Spring Data JPA
     // For classes such as JPA, makes non-final (kotlin final by default)
     kotlin("plugin.allopen") version "2.1.10" // Open classes for Spring Data JPA
-    kotlin("kapt") version "1.9.10"  // Kotlin Annotation Processor
+    kotlin("kapt") version "2.1.21"  // Kotlin Annotation Processor
 }
 
 group = "org.lucidant"
